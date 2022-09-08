@@ -31,4 +31,3 @@ c - Hello. World.
 
 
 7 - (100 - Intel) Write a script that generate the assemble code (Intel syntax) of a C code and save it in an output file.
-
