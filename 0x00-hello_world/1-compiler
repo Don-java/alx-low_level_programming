@@ -1,1 +1,1 @@
-#!/bin/bash
+#!/bin/bash\ngcc E $CFILE -o c
