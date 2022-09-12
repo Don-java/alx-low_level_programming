@@ -1,20 +1,14 @@
-#include <stdio.h>
-
-
-
 /**
 
-* main -entry point
+ * main -entry point
 
-*
+ *
 
-* Description: using the main function
+ * Return: 0 after printing the function
 
-* this program prints "Programming is like building a multilingual puzzle"
+ */
 
-* Return: 0
-
-*/
+#include <stdio.h>
 
 int main(void)
 
