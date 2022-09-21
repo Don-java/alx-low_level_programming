@@ -1,21 +1,28 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-*reset_to_98 - resets the value of given integer to 98
-*@n: parameter
-*Return : nothing
-*/
-int main(void)
+ * _strcat - Concatenates two strings
+  * @dest: The destination string
+  * @src: The source string
+  *
+  * Return: A pointer to the resulting string dest
+  */
+char *_strcat(char *dest, char *src)
 {
-    char s1[98] = "Hello ";
-    char s2[] = "World!\n";
-    char *p;
+	int dlen = 0, i;
 
-    printf("%s\n", s1);
-    printf("%s", s2);
-    p = _strcat(s1, s2);
-    printf("%s", s1);
-    printf("%s", s2);
-    printf("%s", p);
-    return (0);
+	while (dest[dlen])
+	{
+		dlen++;
+	}
+
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[dlen] = src[i];
+		dlen++;
+	}
+
+	dest[dlen] = '\0';
+	return (dest);
 }
