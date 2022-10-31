@@ -311,4 +311,4 @@ int main(int _attribute((unused_)) argc, char *argv[])
 	free(header);
 	close_elf(o);
 	return (0);
- }
+}
